@@ -23,17 +23,11 @@ Implements a probabilistic ordered data structure supporting fast insertion, del
 - Full unit test coverage with GoogleTest
 - Auto-generated documentation via Doxygen
 
-# Run the executable
 
 # build skiplist_demo
 
 make              
-./skiplist_demo
-
-# Build and run tests
-
-# builds skiplist_demo
-make              
+./skiplist_demo            
 
 # builds and runs tests
 make run_tests    
