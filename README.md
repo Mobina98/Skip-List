@@ -23,6 +23,12 @@ Implements a probabilistic ordered data structure supporting fast insertion, del
 - Full unit test coverage with GoogleTest
 - Auto-generated documentation via Doxygen
 
+## Requirements
+
+- **C++17** compatible compiler (GCC, Clang, MSVC)
+- **Makefile**
+- ** Test** (for unit tests)
+- **Doxygen** (for documentation generation)
 
 # build skiplist_demo
 
@@ -36,6 +42,6 @@ make run_tests
 make clean        
 
 # Documentation
-
 doxygen Doxyfile
+xdg-open docs/html/index.html
 >>>>>>> 675e9d0 (Initial commit on feature/SkipList)
