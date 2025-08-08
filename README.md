@@ -25,15 +25,21 @@ Implements a probabilistic ordered data structure supporting fast insertion, del
 
 # Run the executable
 
-make              # builds skiplist_demo
+# build skiplist_demo
 
+make              
 ./skiplist_demo
 
 # Build and run tests
 
-make              # builds skiplist_demo
-make run_tests    # builds and runs tests
-make clean        # removes built binaries
+# builds skiplist_demo
+make              
+
+# builds and runs tests
+make run_tests    
+
+# removes built binaries
+make clean        
 
 # Documentation
 
