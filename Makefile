@@ -1,3 +1,4 @@
+
 # Compiler and Flags
 CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra -Iinclude -Isubmodules/googletest/googletest/include
@@ -25,6 +26,7 @@ $(GTEST_LIB):
 
 # Build test binary
 test: $(GTEST_LIB) $(TEST_SRC) include/skip_list.hpp
+	mkdir -p tests
 	$(CXX) $(CXXFLAGS) -pthread $(TEST_SRC) $(GTEST_LIB) -o tests/test_skip_list
 
 # Run tests
