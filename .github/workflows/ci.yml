@@ -24,7 +24,6 @@ jobs:
       - name: Run tests (build and execute)
         run: make run_tests
 
-      - name: List tests folder after build (debugging)
+      - name: List tests folder for debugging
         run: ls -l tests/
 
-        
