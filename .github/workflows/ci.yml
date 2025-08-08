@@ -21,13 +21,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y build-essential cmake
 
-      - name: Build tests
-        run: make test
+      - name: Run tests (build and execute)
+        run: make run_tests
 
-      - name: List test files (optional, for debugging)
+      - name: List tests folder after build (debugging)
         run: ls -l tests/
-
-      - name: Run tests
-        run: ./tests/test_skip_list
 
         
