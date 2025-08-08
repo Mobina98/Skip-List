@@ -43,5 +43,6 @@ make clean
 
 # Documentation
 doxygen Doxyfile
+
 xdg-open docs/html/index.html
 >>>>>>> 675e9d0 (Initial commit on feature/SkipList)
